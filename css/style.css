@@ -1,0 +1,130 @@
+/*  RESET
+---------------------------------*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: helvetica, arial, sans-serif;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+img{
+    width: 200px;
+}
+
+/*  LOGIN
+---------------------------------*/
+.container{
+    width: 700px;
+    margin: auto;
+    background-color: #1b1c20;
+    text-align: center;
+    padding: 50px 100px 20px;
+}
+.header-logo{
+    margin-bottom: 50px;
+}
+.btn-face{
+    border: none;
+    background-color: #40579D;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 15px;
+    padding: 7px 60px;
+    cursor: pointer;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+}
+.division{
+    color: #7a7976;
+    margin-bottom: 15px;
+    font-size: 13px;
+}
+input[type="text"]{
+    background-color: #473E3F;
+    border: none;
+    padding: 7px 10px;
+    color: #fff;
+    width: 300px;
+    border-radius: 3px;
+}
+input[type="password"]{
+    background-color: #393337;
+    border: none;
+    padding: 7px 10px;
+    color: #fff;
+    width: 300px;
+    margin-top: 15px;
+    border-radius: 3px;
+}
+.remember-me{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px auto 0;
+    font-size: 13px;
+}
+.remember-me span{
+    color: #7a7976;
+    text-align: left;
+}
+input[type="checkbox"]{
+    position: relative;
+    width: 40px;
+    height: 20px;
+    -webkit-appearance: none;
+    outline: none;
+    background-color: #c6c6c6;
+    border-radius: 10px;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+    transition: .4s;
+}
+input:checked[type="checkbox"]{
+    background-color: #2CB652;
+}
+input[type="checkbox"]:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    transition: .4s;
+    transform: scale(1.1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+input:checked[type="checkbox"]:before{
+    left: 20px;
+}
+.btn-log{
+    background-color: #2CB652;
+    color: #fff;
+    border: none;
+    padding: 10px 35px;
+    text-transform: uppercase;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 40px;
+    margin-bottom: 70px;
+    letter-spacing: 1px;
+}
+.link-log ul li{
+    margin-bottom: 20px;
+}
+.link-log ul li a{
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+.link-log ul li a:hover{
+    color: #2CB652;
+}
