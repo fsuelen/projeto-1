@@ -27,7 +27,6 @@ body{
 .container{
     width: 700px;
     margin: auto;
-    background-color: #1b1c20;
     text-align: center;
     padding: 50px 100px 20px;
 }
@@ -49,6 +48,21 @@ body{
     color: #7a7976;
     margin-bottom: 15px;
     font-size: 13px;
+    position: relative;
+}
+.division hr:first-child{
+    position: absolute;
+    top: 6px;
+    left: 100px;
+    width: 130px;
+    border-color: #7a7976;
+}
+.division hr:last-child{
+    position: absolute;
+    top: 6px;
+    left: 270px;
+    width: 130px;
+    border-color: #7a7976;
 }
 input[type="text"]{
     background-color: #473E3F;
