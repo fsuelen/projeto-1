@@ -21,6 +21,9 @@ img{
 
 /*  LOGIN
 ---------------------------------*/
+body{
+    background-color: #1b1c20;
+}
 .container{
     width: 700px;
     margin: auto;
